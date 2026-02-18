@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 public class EavyArmory
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "eavy-armory";
+    public static final String MOD_ID = "eavyarmory";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
