@@ -14,6 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import to.bricks.eavyarmory.block.ModBlocks;
+import to.bricks.eavyarmory.item.ModCreativeModTabs;
 import to.bricks.eavyarmory.item.ModItems;
 
 import static to.bricks.eavyarmory.item.ModItems.*;
@@ -27,7 +29,10 @@ public class EavyArmory {
     public EavyArmory() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,4 +1,8 @@
 {
   "item.eavyarmory.ceramite": "Керамит",
-  "item.eavyarmory.compound": "Композит"
+  "item.eavyarmory.compound": "Композит",
+
+  "creativetab.eavyarmory_tab": "Eavy Armory",
+
+  "block.eavyarmory.ceramite_block": "Блок керамита"
 }
