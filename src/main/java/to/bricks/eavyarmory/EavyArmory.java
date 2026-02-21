@@ -47,8 +47,9 @@ public class EavyArmory {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(CERAMITE);
+            event.accept(CERAMITE_INGOT);
             event.accept(COMPOUND);
+            event.accept(CERAMITEPOWDER);
         }
 
     }
@@ -58,7 +59,7 @@ public class EavyArmory {
     public void onServerStarting(ServerStartingEvent event)
     {
         // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+        LOGGER.info("HELLO from MaleSkam");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

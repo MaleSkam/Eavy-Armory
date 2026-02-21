@@ -1,8 +1,9 @@
 {
-  "item.eavyarmory.ceramite": "Керамит",
-  "item.eavyarmory.compound": "Композит",
-
   "creativetab.eavyarmory_tab": "Eavy Armory",
 
-  "block.eavyarmory.ceramite_block": "Блок керамита"
+  "item.eavyarmory.ceramite_ingot": "Керамитовый слиток",
+  "item.eavyarmory.compound": "Композит",
+  "item.eavyarmory.ceramite_powder": "Керамитовая пыль",
+
+  "block.eavyarmory.ceramite_block": "Керамитовый блок"
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "eavyarmory:ceramite_ingot"
+    }
+  },
+  "result": {
+    "item": "eavyarmory:ceramite_block"
+  }
+}

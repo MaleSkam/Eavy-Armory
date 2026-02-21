@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "eavyarmory:ceramite_powder"
+  },
+  "result": "eavyarmory:ceramite_ingot"
+}

@@ -1,8 +1,9 @@
 {
-  "item.eavyarmory.ceramite": "Ceramite",
-  "item.eavyarmory.compound": "Compound",
-
   "creativetab.eavyarmory_tab": "Eavy Armory",
+
+  "item.eavyarmory.ceramite_ingot": "Ceramite Ingot",
+  "item.eavyarmory.compound": "Compound",
+  "item.eavyarmory.ceramite_powder": "Ceramite Powder",
 
   "block.eavyarmory.ceramite_block": "Ceramite Block"
 }

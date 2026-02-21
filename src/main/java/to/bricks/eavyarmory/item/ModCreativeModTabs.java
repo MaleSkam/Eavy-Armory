@@ -15,7 +15,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EavyArmory.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> EAVYARMORY_TAB = CREATIVE_MODE_TAB.register("eavyarmory_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CERAMITE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CERAMITE_INGOT.get()))
                     .title(Component.translatable("creativetab.eavyarmory_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         for(RegistryObject<Item> item : ModItems.ITEMS.getEntries()) {

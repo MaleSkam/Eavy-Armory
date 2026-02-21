@@ -11,9 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, EavyArmory.MOD_ID);
 
-    public static final RegistryObject<Item> CERAMITE = ITEMS.register("ceramite",
+    public static final RegistryObject<Item> CERAMITE_INGOT = ITEMS.register("ceramite_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COMPOUND = ITEMS.register("compound",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CERAMITEPOWDER = ITEMS.register("ceramite_powder",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

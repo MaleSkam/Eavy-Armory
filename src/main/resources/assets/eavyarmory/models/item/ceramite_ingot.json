@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "eavyarmory:item/ceramite"
+    "layer0": "eavyarmory:item/ceramite_ingot"
   }
 }

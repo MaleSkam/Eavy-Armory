@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eavyarmory:ceramite_block"
+    }
+  ],
+  "result": {
+    "item": "eavyarmory:ceramite_ingot",
+    "count": 9
+  }
+}
