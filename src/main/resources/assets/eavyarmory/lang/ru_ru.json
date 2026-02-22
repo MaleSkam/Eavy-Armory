@@ -7,5 +7,13 @@
   "item.eavyarmory.light_power_armor_chestplate": "Light Power Armor Chestplate",
   "item.eavyarmory.light_power_armor_leggings": "Light Power Armor Leggings",
   "item.eavyarmory.light_power_armor_boots": "Light Power Armor Boots",
+  "item.eavyarmory.power_armor_helmet": "Power Armor Helmet",
+  "item.eavyarmory.power_armor_chestplate": "Power Armor Chestplate",
+  "item.eavyarmory.power_armor_leggings": "Power Armor Leggings",
+  "item.eavyarmory.power_armor_boots": "Power Armor Boots",
+  "item.eavyarmory.advanced_power_armor_helmet": "Advanced Power Armor Helmet",
+  "item.eavyarmory.advanced_power_armor_chestplate": "Advanced Power Armor Chestplate",
+  "item.eavyarmory.advanced_power_armor_leggings": "Advanced Power Armor Leggings",
+  "item.eavyarmory.advanced_power_armor_boots": "Advanced Power Armor Boots",
   "block.eavyarmory.ceramite_block": "Керамитовый блок"
 }

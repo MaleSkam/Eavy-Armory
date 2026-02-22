@@ -11,8 +11,8 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     POWER1( "light_power_armor", 26, new int[]{ 3, 8, 6, 3 }, 25, SoundEvents.ARMOR_EQUIP_NETHERITE, 2f, 0f, () -> Ingredient.of(ModItems.COMPOUND.get())),
-    POWER2( "power_armor", 32, new int[]{ 4, 9, 7, 4 }, 25, SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 1f, () -> Ingredient.of(ModItems.CERAMITE_INGOT.get())),
-    POWER3( "advanced_power_armor", 42, new int[]{ 5, 10, 8, 5 }, 25, SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 2f, () -> Ingredient.of(ModItems.CERAMITE_INGOT.get()));
+    POWER2( "power_armor", 32, new int[]{ 4, 9, 7, 4 }, 25, SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () -> Ingredient.of(ModItems.CERAMITE_INGOT.get())),
+    POWER3( "advanced_power_armor", 42, new int[]{ 5, 10, 8, 5 }, 25, SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.2f, () -> Ingredient.of(ModItems.CERAMITE_INGOT.get()));
 
     private final String name;
     private final int durabilityMultiplier;

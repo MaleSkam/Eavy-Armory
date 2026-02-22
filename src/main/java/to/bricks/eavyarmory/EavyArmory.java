@@ -37,24 +37,10 @@ public class EavyArmory {
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
 
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(CERAMITE_INGOT);
-            event.accept(COMPOUND);
-            event.accept(CERAMITEPOWDER);
-            event.accept(LIGHTPOWERHELMET);
-            event.accept(LIGHTPOWERCHEST);
-            event.accept(LIGHTPOWERLEGGINGS);
-            event.accept(LIGHTPOWERBOOTS);
-        }
 
     }
 
