@@ -1,9 +1,11 @@
 {
   "creativetab.eavyarmory_tab": "Eavy Armory",
-
   "item.eavyarmory.ceramite_ingot": "Керамитовый слиток",
   "item.eavyarmory.compound": "Композит",
   "item.eavyarmory.ceramite_powder": "Керамитовая пыль",
-
+  "item.eavyarmory.light_power_armor_helmet": "Light Power Armor Hemlet",
+  "item.eavyarmory.light_power_armor_chestplate": "Light Power Armor Chestplate",
+  "item.eavyarmory.light_power_armor_leggings": "Light Power Armor Leggings",
+  "item.eavyarmory.light_power_armor_boots": "Light Power Armor Boots",
   "block.eavyarmory.ceramite_block": "Керамитовый блок"
 }

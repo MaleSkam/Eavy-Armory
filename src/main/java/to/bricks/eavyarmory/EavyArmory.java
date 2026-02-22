@@ -50,6 +50,10 @@ public class EavyArmory {
             event.accept(CERAMITE_INGOT);
             event.accept(COMPOUND);
             event.accept(CERAMITEPOWDER);
+            event.accept(LIGHTPOWERHELMET);
+            event.accept(LIGHTPOWERCHEST);
+            event.accept(LIGHTPOWERLEGGINGS);
+            event.accept(LIGHTPOWERBOOTS);
         }
 
     }
